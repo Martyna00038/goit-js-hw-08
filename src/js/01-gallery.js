@@ -29,7 +29,8 @@ function renderGallery() {
 renderGallery();
 
 new SimpleLightbox('.gallery a', {
-  /* options */
+  captionsData: 'alt',
+  captionPosition: 'bottom',
 });
 
 console.log(galleryItems);
